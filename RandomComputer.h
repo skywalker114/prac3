@@ -1,17 +1,15 @@
-#ifndef RandomComputer_H
-#define RandomComputer_H
+#ifndef RANDOMCOMPUTER_H
+#define RANDOMCOMPUTER_H
+#include "Computer.h"
 #include "Player.h"
-#include <vector>
-using namespace std;
+#include <iostream>
 
-class RandomComputer : public Player {
-public:
+class RandomComputer: public Computer
+{
+    public:
     RandomComputer();
-    string performMove();
-    void addAnswer(string ans);
-    ~RandomComputer();
-private:
-    int handInt;
-    vector<string> userAnswers;
+    char makeMove();
+
 };
+
 #endif

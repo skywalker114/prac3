@@ -1,13 +1,14 @@
-#include <string>
 #include <iostream>
 #include "Player.h"
+#include "Computer.h"
 #include "Toolbox.h"
-using namespace std;
 
-    Toolbox::Toolbox() : Player("Toolbox") {}
-    Toolbox::~Toolbox() {}
-    string Toolbox::performMove()
+Toolbox::Toolbox()
 {
-    hand = "Scissors"; 
-    return hand;
+   
+}
+
+char Toolbox::makeMove()
+{
+    return 'S';
 }

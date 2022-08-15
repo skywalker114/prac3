@@ -1,12 +1,13 @@
-#include "Computer.h"
 #include <iostream>
+#include "Computer.h"
 
-char Computer::getMove()
+Computer::Computer()
 {
-    return choice;
+
 }
 
-void Computer::makeMove()
+char Computer::makeMove()
 {
-    choice = 'P';
+    return 'R';
 }
+

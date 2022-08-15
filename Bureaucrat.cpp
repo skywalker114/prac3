@@ -1,13 +1,14 @@
-#include <string>
 #include <iostream>
 #include "Player.h"
+#include "Computer.h"
 #include "Bureaucrat.h"
-using namespace std;
 
-    Bureaucrat::Bureaucrat() : Player("Bureaucrat") {}
-    Bureaucrat::~Bureaucrat() {}
-    string Bureaucrat::performMove()
+Bureaucrat::Bureaucrat()
 {
-    hand = "Paper"; 
-    return hand;
+   
+}
+
+char Bureaucrat::makeMove()
+{
+    return 'P';
 }

@@ -1,13 +1,16 @@
-#ifndef Avalanche_H
-#define Avalanche_H
+#ifndef AVALANCHE_H
+#define AVALANCHE_H
+#include "Computer.h"
 #include "Player.h"
-using namespace std;
+#include <iostream>
 
-class Avalanche : public Player 
+class Avalanche: public Computer
 {
     public:
-        Avalanche();
-        string performMove();
-        string hand;
+    Avalanche();
+    char makeMove();
+    int round=0;
+
 };
+
 #endif

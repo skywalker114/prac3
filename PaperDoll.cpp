@@ -1,15 +1,14 @@
 #include <iostream>
 #include "Player.h"
 #include "Computer.h"
-#include "Avalanche.h"
+#include "PaperDoll.h"
 
-Avalanche::Avalanche()
+PaperDoll::PaperDoll()
 {
    
 }
 
-char Avalanche::makeMove()
+char PaperDoll::makeMove()
 {
-    round++;
     return 'R';
 }

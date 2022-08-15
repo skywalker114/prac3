@@ -1,15 +1,15 @@
-#ifndef TOOLBOX_H
-#define TOOLBOX_H
+#ifndef CRESCENDO_H
+#define CRESCENDO_H
 #include "Computer.h"
 #include "Player.h"
 #include <iostream>
 
-class Toolbox: public Computer
+class Crescendo: public Computer
 {
     public:
-    Toolbox();
+    Crescendo();
     char makeMove();
-
+    int round=0;
 };
 
 #endif

@@ -1,13 +1,13 @@
-#ifndef TOOLBOX_H
-#define TOOLBOX_H
+#ifndef PAPERDOLL_H
+#define PAPERDOLL_H
 #include "Computer.h"
 #include "Player.h"
 #include <iostream>
 
-class Toolbox: public Computer
+class PaperDoll: public Computer
 {
     public:
-    Toolbox();
+    PaperDoll();
     char makeMove();
 
 };
